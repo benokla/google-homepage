@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+#googleLogo {
+    display: block;
+}
+
+li {
+    list-style-type: none;
+}
+
+.navbarLeft {
+    display: flex;
+    width: 165px;
+    justify-content: space-between;
+    border: 1px solid gray;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.navbarRight {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    border: 1px solid gray;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+ul {
+    border: 1px solid red;
+    height: 60px;
+    position: relative;
+}
